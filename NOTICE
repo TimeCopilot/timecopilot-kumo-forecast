@@ -1,0 +1,10 @@
+timecopilot-kumo-forecast
+
+This package vendors and adapts code from NVIDIA Kumo-TS (Kumo-Forecast):
+https://github.com/NVIDIA/Kumo-TS
+
+Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Changes: kumo_forecast/_backbone.py is trimmed to the inference path; the
+inference API in kumo_forecast/model.py is new.
